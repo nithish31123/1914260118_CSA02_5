@@ -1,0 +1,5 @@
+smart_energy
+smart_energy.exe
+*.o
+appliances.dat
+energy_report.txt
