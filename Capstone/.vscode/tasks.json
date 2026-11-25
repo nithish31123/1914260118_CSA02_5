@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build smart_energy",
+      "type": "process",
+      "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+      "args": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic",
+        "-g",
+        "${workspaceFolder}\\smart_energy.c",
+        "-o",
+        "${workspaceFolder}\\smart_energy.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
